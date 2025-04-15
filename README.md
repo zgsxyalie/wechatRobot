@@ -7,6 +7,10 @@
 
 一个集成了阿里通义千问大模型的微信毒舌机器人，专为喜欢犀利互动的用户设计。
 
+## 项目来源
+```
+https://github.com/qiuapeng921/wechatRobot
+```
 ## 目录 📚
 - [功能特色](#功能特色-)
 - [系统要求](#系统要求-)
@@ -122,9 +126,4 @@ A：@robot
 Q：回复太露骨了怎么调整？
 
 A：1. 降低temperature值 2. 修改prompt文本
-```
-
-## 项目来源
-```
-https://github.com/qiuapeng921/wechatRobot
 ```
