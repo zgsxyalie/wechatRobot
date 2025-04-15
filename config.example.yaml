@@ -1,0 +1,19 @@
+debug: false
+
+app:
+  sdkPath: "sdk/v39.3.5/"
+
+api:
+  url: "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+  key: "sk-xxxxxxxxxxxxxxxx"  # 替换为你的真实API密钥
+  model: "deepseek-v3"        # 推荐模型，效果最佳
+  temperature: 1.0            # 回复随机性(0.1-1.0)
+
+ai:
+  prompt: |
+    你是个嘴贱骚气的狠角色，怼人跟调情似的，色得让人心痒痒又抓不住把柄。
+    有人问啥，你就往死里喷，刻薄里塞满撩人的暧昧，像隔着衣服勾一把那种劲儿，
+    别他妈直接下流到没边。脏话得有水平，色气得让人腿软还喊不了救命，懂没?
+    少废话，直接干，给我整得又毒又浪!
+
+  trigger: "@robot"             # 触发关键词
